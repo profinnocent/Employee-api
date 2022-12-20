@@ -1,0 +1,38 @@
+###
+# GET all
+GET	http://localhost/Aptech/Employee-api/api/read.php
+
+
+
+
+###
+# GET single 
+GET	http://localhost/Aptech/Employee-api/api/read.php?id=1
+
+
+
+
+###
+# POST or create a new resource
+POST http://localhost/Aptech/Employee-api/api/create.php
+
+{
+    "name": "Claret",
+    "email": "peter@gmail.com",
+    "age": 23,
+    "designation": "Productionn Officer"
+}
+
+
+
+
+###
+# UPDATE a resource
+POST http://localhost/Aptech/Employee-api/api/update.php
+
+
+
+
+###
+# DELETE a resource
+DELETE	http://localhost/Aptech/Employee-api/api/delete.php
